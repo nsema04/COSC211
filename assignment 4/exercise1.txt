@@ -1,0 +1,23 @@
+    COSC 211 Lab 4 
+Noah Semashkewich
+53882783
+Question 1:
+
+1. The address of int_array is 0x10010070
+
+2. Beq identifies the address with the help of total number
+    of instructions between beq and the address where it will
+    then jump+1.
+
+3. The address where j will execute is 0x40003c, and in binary is
+    10000000000000000111100
+    
+    MIPS will remove the first two digits
+
+    100000000000000001111
+
+    In hex, this number is 10000f, which makes the complete code for the j instruction
+
+    01000000100000000000000001111
+
+    In MIPS, this is 0x0810000f, which is where the j instruction is encoded
