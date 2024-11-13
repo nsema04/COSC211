@@ -1,0 +1,20 @@
+COSC 211 Lab 2
+1.
+Question 1
+
+-The program reads the entered string and returns the number of characters in the string. The length is calculated by looping through the inputted string.
+
+Question 2
+
+[00400028] 3c011001  lui $1, 4097 [str]
+[0040002c] 34240010  ori $4, $1, 16 [str]
+[00400038] 3c011001  lui $1, 4097 [buffer]
+[0040003c] 34240004  ori $4, $1, 4 [buffer]
+[00400048] 3c011001  lui $1, 4097 [buffer]
+[0040004c] 34280004  ori $8, $1, 4 [buffer]
+[00400050] 3c011001  lui $1, 4097 [len]
+[00400054] 34300000  ori $16, $1, 0 [len]
+
+Question 3
+
+-The answer will be the same because the regular alignment of bytes in MIPS is 4
